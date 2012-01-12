@@ -1,7 +1,7 @@
 Spring Portlet MVC
 ==================
 
-A minimal Spring Portlet MVC project.
+A minimal Spring Portlet MVC project using Maven.
 
 * Java 1.6
 * Portlet 2.0
