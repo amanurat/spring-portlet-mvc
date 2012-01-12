@@ -29,7 +29,7 @@ $ cp target/spring-portlet-mvc.war $LIFERAY_HOME/deploy/
 Configuration
 -------------
 
-Default settings are Java 1.6, Portlet 2.0, and Spring 3.1.  All can be configured in [pom.xml](https://github.com/miamidade/spring-portlet-mvc/blob/master/pom.xml))
+Default settings are Java 1.6, Portlet 2.0, and Spring 3.1.  All can be configured in [pom.xml](https://github.com/miamidade/spring-portlet-mvc/blob/master/pom.xml)
 
 ```xml
 <properties>
