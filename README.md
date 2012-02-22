@@ -44,6 +44,28 @@ Default settings are Java 1.6, Portlet 2.0, and Spring 3.1.  All can be configur
 </properties>
 ```
 
+Archetype
+---------
+
+A Maven archetype, based on this project, is also available.
+
+Add an entry for the archetype in: ```~/.m2/archetype-catalog.xml```
+
+```xml
+<archetype>
+  <groupId>gov.miamidade</groupId>
+  <artifactId>spring-portlet-mvc-archetype</artifactId>
+  <version>1.0.0</version>
+  <repository>https://raw.github.com/miamidade/maven-repo/master/releases</repository>
+  <description>spring-portlet-mvc-archetype</description>
+</archetype>
+```
+
+Then run the maven archetype generate command.  Follow the prompts to specify the groupId, artifactId, and version for your project.
+
+```bash
+$ mvn archetype:generate -DarchetypeCatalog=local
+```
 
 License
 -------
